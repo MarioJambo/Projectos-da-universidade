@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styleCalc.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalculadoraJs</title>
+</head>
+<body>
+    <Header>
+        <center>
+            <h1 >
+                Calculadora Js
+            </h1>
+        </center>
+    </Header>
+
+    <div class="calculadora">
+
+        <table align="center" class="tabela" border="1px">
+            <tr >
+                <th colspan="2" class="titulo-tb">Calculadora Imc</th>
+            </tr>
+            <tr>
+                <td><strong>nome </strong></td>
+                <td> <input class="txt" type="text" id="nome" placeholder="insira seu nome"></td>
+            </tr>
+            <tr>
+                <td><strong>altura </strong></td>
+                <td> <input type="text" class="txt" id="altura" placeholder="insira sua altura [em m]"></td>
+            </tr>
+            <tr>
+                <td><strong>Peso</strong></td>
+                <td> <input type="text" class="txt" id="peso" placeholder="insira seu Peso [ em Kg]"></td>
+            </tr>
+            <tr >
+                <th colspan="2" ><button type="submit" class="bt" id="bt">Calcular</button></th>
+            </tr>
+            <tr>
+                <th colspan="2"> <textarea name="resultado" class="res" id="resultado" cols="15" rows="5" disabled="disabled"></textarea></th>
+            
+            </tr>
+            
+
+        </table>
+
+    </div>
+
+    <script src="imc.js">
+    </script>
+</body>
+</html>

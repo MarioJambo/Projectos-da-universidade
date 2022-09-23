@@ -1,0 +1,33 @@
+
+
+
+h1{
+    font: normal; font-size: 20vh; text-align: center;
+}
+
+table{
+    border-style: groove; 
+    border-radius: 8px;
+    border-color:yellow;
+    background-color: yellow;
+
+}
+td, th{
+    border-collapse: collapse;
+    border: none;
+}
+
+.bt{
+    background-color: black;
+    color: yellow;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.res{
+    background-color: black;
+    color: yellow;
+    border: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+}

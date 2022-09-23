@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fundo da tela /  visualizacao */
+html{
+    width: 100vh;
+    height: 100vh;  
+    font-size: 62.5%;
+    color: aliceblue;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body{
+    background: linear-gradient(rgba(17,17,17,0.8), rgba(20,20,20,1));
+    background-color: dodgerblue;
+}
+
+/* personalizacao da barra de navegacao */
+.menu-content{
+    text-transform: uppercase;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.8rem;
+    z-index: 999;
+}
+
+.logo{
+    align-items: center;
+    font-size: 1.8rem;
+    letter-spacing: 0.4rem;
+    cursor: pointer;
+}
+
+/* personalizacao dos itens da navbar */
+.menu-content .list-items{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.menu-content .list-items a{
+    text-decoration: none;
+    color: floralwhite;
+    padding: 1.5rem;
+    transform: 2ms ease-in;
+    position: relative;
+}
+
+.menu-content .list-items a :before{
+    text-decoration: none;
+    color: floralwhite;
+    padding: 1.5rem;
+    transform: 2ms ease-in;
+    position: relative;
+     transform: 2ms ease-in;
+    
+}
